@@ -1,0 +1,6 @@
+# editor folder configs 
+c++/*/.idea
+c++/*/.vscode
+
+# cmake build debug folder
+c++/*/cmake-build-debug
