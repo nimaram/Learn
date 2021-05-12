@@ -2,6 +2,9 @@
 c++/*/.idea
 c++/*/.vscode
 c++/.idea
+typescript/node_modules
+typescript/.vscode
+typescript/.idea
 
 # cmake build debug folder
 c++/*/cmake-build-debug
