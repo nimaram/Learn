@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "form-data": "^4.0.0",
+    "graphql": "^15.5.0",
     "lite-server": "^2.6.1"
   }
 }
