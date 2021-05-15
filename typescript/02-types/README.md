@@ -6,4 +6,6 @@
 - string for values: 'hi' "HI" \`hi\`
   - all text values
 - boolean for values: true, false
-  - just these two  
+  - just these two
+- object for javascript objects: {age: 30}
+  - any javascript object    
