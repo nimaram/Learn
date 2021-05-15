@@ -8,4 +8,6 @@
 - boolean for values: true, false
   - just these two
 - object for javascript objects: {age: 30}
-  - any javascript object    
+  - any javascript object
+- array for values: \[1, 2, 3\]
+  - any javascript array      

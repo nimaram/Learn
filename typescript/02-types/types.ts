@@ -48,3 +48,19 @@ const ThirdAdminTemplate: AdminTemplateTypes = {
   age: 31,
   isBanned: false
 }
+
+const person: object = {
+  name: "nimbit",
+  languages: ["Persian","English"]
+}
+
+
+
+
+let Langs: string[];
+Langs = ["Go"];
+
+let Numbers: number[] = [250, 300, 400];
+
+// union
+let Union: (number | string)[] = ["string", 1];
