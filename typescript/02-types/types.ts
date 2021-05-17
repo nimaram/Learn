@@ -64,3 +64,22 @@ let Numbers: number[] = [250, 300, 400];
 
 // union
 let Union: (number | string)[] = ["string", 1];
+
+// tuple object
+const myTuple: string[] = ["hello", "make a good day!"];
+
+// enum
+enum Friend{
+  NAME = "abbas",
+  AGE = 20
+};
+const user: object = {
+  name: "ali",
+  age: 22,
+  hisNiceFriend: Friend.NAME
+};
+
+
+
+let mySkill: any = "a";
+mySkill = 1000;
