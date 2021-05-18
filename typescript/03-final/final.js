@@ -12,3 +12,16 @@ function combine(first, second) {
 const combinedAge = combine(200, 500);
 const combinedName = combine("majid", "abbas");
 console.log(combinedAge, combinedName);
+console.log(+"25" + +"41");
+function checkStatus(status) {
+    if (status == "draft") {
+        console.log("drafted");
+    }
+    else if (status == "posted") {
+        console.log("posted");
+    }
+    else {
+        throw new Error("give status as a correct format");
+    }
+}
+checkStatus("posted");
