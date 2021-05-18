@@ -15,5 +15,7 @@
   - added by typescript fixed-length array
 - enum for values: enum \{NEW, OLD\} 
   - added by typescript: automaticly enumerated global constant identifires
+- Function for functions
+  - any functions
 - any *
   - for any type values           

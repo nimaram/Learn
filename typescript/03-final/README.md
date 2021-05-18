@@ -12,4 +12,13 @@
   - ```javascript
     type Any = string | number;
     type Post = "posted" | "drafted";
-    ```    
+    ```
+- function types:
+  - ```javascript
+    let myFunction: Function;
+    myFunction = (a: number): number => a * a
+
+    let myFunction2: (b: string) => string;
+    myFunction2 = (b) => b + " s";
+
+  - or we can use type void in non-returning value 

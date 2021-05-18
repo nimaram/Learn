@@ -1,4 +1,3 @@
-// union types
 function combine(first, second) {
     let resault;
     if (typeof first == "number" && typeof second == "number") {
@@ -25,3 +24,17 @@ function checkStatus(status) {
     }
 }
 checkStatus("posted");
+const descTerminal = "anything...";
+// void
+// defining return value type
+function divine(n1, n2) {
+    const resault = n1 / n2;
+    return resault;
+}
+console.log(divine(10, 4));
+let myFunction;
+myFunction = (a) => a * a;
+console.log(myFunction(5));
+let myFunction2;
+myFunction2 = (b) => b + " s";
+console.log(myFunction2("toy"));

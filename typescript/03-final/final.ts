@@ -36,3 +36,21 @@ function checkStatus(status: PostText ) {
 checkStatus("posted")
 
 const descTerminal: AnyType = "anything...";
+
+
+// void
+// defining return value type
+function divine(n1: number, n2: number): number {
+  const resault = n1 / n2;
+  return resault;
+}
+console.log(divine(10, 4))
+
+let myFunction: Function;
+myFunction = (a: number): number => a * a
+console.log(myFunction(5))
+
+let myFunction2: (b: string) => string;
+myFunction2 = (b) => b + " s";
+
+console.log(myFunction2("toy"))
