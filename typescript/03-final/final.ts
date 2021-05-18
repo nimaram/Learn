@@ -1,4 +1,9 @@
 // union types
+type AnyType = number | string;
+type Posted = "posted";
+type Draft = "draft";
+type PostText = "posted" | "draft";
+
 function combine(first: number | string, second: number | string) {
   let resault: any;
   if (typeof first == "number" && typeof second == "number") {
@@ -17,7 +22,7 @@ console.log(combinedAge, combinedName)
 
 console.log(+"25" + +"41")
 
-function checkStatus(status: "draft" | "posted" ) {
+function checkStatus(status: PostText ) {
   if (status == "draft") {
       console.log("drafted")
   }
@@ -29,3 +34,5 @@ function checkStatus(status: "draft" | "posted" ) {
   }
 }
 checkStatus("posted")
+
+const descTerminal: AnyType = "anything...";

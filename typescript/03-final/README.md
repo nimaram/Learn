@@ -8,3 +8,8 @@
   - ```javascript
     admin: "notAdmin" | "yesAdmin" ,
     ```  
+- types is good thing to create our custom types:
+  - ```javascript
+    type Any = string | number;
+    type Post = "posted" | "drafted";
+    ```    
