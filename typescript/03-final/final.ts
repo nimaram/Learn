@@ -54,3 +54,32 @@ let myFunction2: (b: string) => string;
 myFunction2 = (b) => b + " s";
 
 console.log(myFunction2("toy"))
+
+
+function sayNallehSarSahar(track1: number, setTrack2: (id: number) => void) {
+  let res: any;
+  res = setTrack2(track1);
+}
+
+sayNallehSarSahar(1, (id) => {
+  console.log("naleeeeeeeeeeh");
+  console.log(id);
+})
+
+
+let havij: unknown; /* unknown */
+let mooz: unknown;  /* unknown */
+let piaz: unknown;  /* unknown */
+
+piaz = "piaz";
+console.log(typeof piaz);
+
+
+
+
+
+function bedeError(mess: string, code: number): never {
+  throw { message: mess, errorCode: code }
+}
+
+// bedeError("moshkel", 100)

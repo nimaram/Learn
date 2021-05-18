@@ -17,5 +17,7 @@
   - added by typescript: automaticly enumerated global constant identifires
 - Function for functions
   - any functions
+- unknown type; really?
+  - unknown
 - any *
   - for any type values           

@@ -22,3 +22,6 @@
     myFunction2 = (b) => b + " s";
 
   - or we can use type void in non-returning value 
+- type never in functions:
+  - never raturn a/an object or variable
+  - simply used for generating errors

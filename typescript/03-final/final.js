@@ -38,3 +38,20 @@ console.log(myFunction(5));
 let myFunction2;
 myFunction2 = (b) => b + " s";
 console.log(myFunction2("toy"));
+function sayNallehSarSahar(track1, setTrack2) {
+    let res;
+    res = setTrack2(track1);
+}
+sayNallehSarSahar(1, (id) => {
+    console.log("naleeeeeeeeeeh");
+    console.log(id);
+});
+let havij; /* unknown */
+let mooz; /* unknown */
+let piaz; /* unknown */
+piaz = "piaz";
+console.log(typeof piaz);
+function bedeError(mess, code) {
+    throw { message: mess, errorCode: code };
+}
+// bedeError("moshkel", 100)
